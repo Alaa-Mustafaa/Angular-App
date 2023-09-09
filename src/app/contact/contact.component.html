@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <section>
+        <div class="container pt-5">
+            <h2 class=" fs-1 fw-bold text-center" style="color: #2c3e50;">CONATCT SECTION</h2>
+            <div class="text-center">
+              <span id="before"></span>
+              <i class="fa-solid fa-star  py-3" id="starrr"></i>
+          </div> 
+            <div class="row">
+                <div class="col-2 "></div>
+                <div class="col-8 pt-5 pb-5">
+                    <div>
+                        <div class="mb-5">
+                          <label  [style]="condition1==true ? 'transform: translateY(-123%);transition: all 0.5s;': 'transform: translateY(123%);transition: all 0.5s;color:transparent'" id="Name">userName:</label>
+                            <input type="text" class="form-control" id="userName" (keyup)="writing($event)" placeholder="userName" >
+                          </div>
+                          <div class="mb-5">
+                            <label [style]="condition2==true ? 'transform: translateY(-123%);transition: all 0.5s;': 'transform: translateY(123%);transition: all 0.5s;color:transparent'" id="Age">userAge:</label>
+                            <input type="number" class="form-control" id="userAge" (keyup)="writing($event)" placeholder="userAge">
+                          </div>
+                          <div class="mb-5">
+                            <label [style]="condition3==true ? 'transform: translateY(-123%);transition: all 0.5s;': 'transform: translateY(123%);transition: all 0.5s;color:transparent'" id="Email">userEmail:</label>
+                            <input type="email" class="form-control" id="userEmail" (keyup)="writing($event)" placeholder="userEmail">
+                          </div>
+                          <div class="mb-5">
+                            <label [style]="condition4==true ? 'transform: translateY(-123%);transition: all 0.5s;': 'transform: translateY(123%);transition: all 0.5s;color:transparent'" id="Password">userPassword:</label>
+                            <input type="password" class="form-control" id="userPassword" (keyup)="writing($event)" placeholder="userPassword">
+                          </div>
+                          <div>
+                            <button class="btn text-white" style="background-color: #1abc9c;">Send Message</button>
+                          </div>
+
+                          
+
+                </div>
+                
+                </div>
+                <div class="col-2"></div>
+
+            </div>
+            
+         
+        </div>
+        
+    </section>
+
+    <script src="" async defer></script>
+  </body>
+</html>
