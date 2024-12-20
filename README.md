@@ -1,1 +1,1 @@
-# Angular-assign1"# assignment" 
+Simple application made with Angular. Technologies : HTML, CSS, Bootstrap and Angular
